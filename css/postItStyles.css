@@ -175,16 +175,75 @@ body{
 }
 
 .post-color1 {
+  background-color: rgb(116, 204, 231); 
+  opacity: none;
+}
+
+.post-color1:hover {
   animation-name: appered1;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes appered1 {
-  from {opacity: 0;}
-  to {background-color: rgb(116, 204, 231); opacity: none;}
+  from {background-color: rgb(116, 204, 231); opacity: none;}
+  to {opacity: 0;}
 }
 
+.post-color2 {
+  background-color: rgb(238, 155, 155);
+  opacity: none;
+}
+
+.post-color2:hover {
+  animation-name: appered2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes appered2 {
+  from {background-color: rgb(238, 155, 155); opacity: none;}
+  to {opacity: 0;}
+}
+
+.post-color3 {
+  animation-name: appered3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes appered3 {
+  from {opacity: 0;}
+  to {background-color: rgb(235, 130, 153); opacity: none;}
+}
+
+.post-color4 {
+  animation-name: appered4;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes appered4 {
+  from {opacity: 0;}
+  to {background-color: rgb(182, 238, 168); opacity: none;}
+}
+
+.post-color5 {
+  background-color: rgb(228, 169, 225);
+  opacity: none;
+}
+
+.post-color5:hover {
+  animation-name: appered5;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes appered5 {
+  from {background-color: rgb(228, 169, 225); opacity: none;}
+  to {opacity: 0;}
+}
+/*
 .post-color2 {
   animation-name: appered2;
   animation-duration: 15s;
@@ -227,5 +286,4 @@ body{
   from {opacity: 0;}
   to {background-color: rgb(228, 169, 225); opacity: none;}
 }
-
-
+*/
