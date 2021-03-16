@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <!-- Genral Info -->
+        <link rel="icon" href="../img/todoList.png">
+        <title>To-doitealo</title>
+        <meta charset="utf-8">
+        <meta name="description" content="A little bit of my professional path, skills, projects">
+        <meta name="keywords" content="skills, projects, overview">
+        <!-- CSS files -->
+        <link type="text/css" rel="stylesheet" href ="../css/toDoListStyles.css">
+        <!-- JS files -->
+
+    </head>
+
+    <body>
+        <main class="gridFather">
+            <header class="headerc">
+                <div class="flexFather">
+                    <h1 id="title">To-doitealo</h1>
+                </div>
+            </header>
+
+            <nav class="navc">
+                <ul class="flexFather">
+                    <li class="navItem"><a href="">Menu</a></li>
+                    <li class="navItem"><a href="postIts.html" target="_self">Post-tealo</a></li>
+                    <li class="navItem"><a href="toDoList.html" target="_self">To-doitealo</a></li>
+                    <li class="navItem"><a href="gallery.html" target="_self">Gallery</a></li>
+                </ul>
+            </nav>
+            <aside class="asidec">
+                <div class="flexFather">
+                    <h1 class="toolBarTitle">Tool Bar</h1>
+                    <button id="add" class="toolBarbutton" onClick="addPost()">Add</button>
+                    <br>
+                    <button id="delete" class="toolBarbutton" onClick="deletePost()">Remove</button>
+                    <br>
+                    <button id="edit" class="toolBarbutton" onClick="editPost()">Edit</button>
+                    <br>
+                </div>
+            </aside>
+            
+
+            <section class="sectionc">
+                <div class="flexFather">
+                    <div class="sectionToDo" >
+                        <h1 class="titleItem">To-do</h1>
+                        <ul>
+                            <li class="postIt todo-color1"><input type="checkbox" id="abox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt todo-color2"><input type="checkbox" id="abox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt todo-color3"><input type="checkbox" id="abox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt todo-color4"><input type="checkbox" id="abox2" >Terminar de estudiar CSS</li>
+                        </ul>
+                    </div>
+        
+                    <div class="sectionDoing">
+                        <h1 class="titleItem">Doing</h1>
+                        <ul>
+                            <li class="postIt doing-color1"><input type="checkbox" id="bbox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt doing-color2"><input type="checkbox" id="bbox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt doing-color3"><input type="checkbox" id="bbox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt doing-color4"><input type="checkbox" id="bbox2" >Terminar de estudiar CSS</li> 
+                        </ul>
+                    </div>
+                    
+                    <div class="sectionDone">
+                        <h1 class="titleItem">Done</h1>
+                        <ul>
+                            <li class="postIt done-color1"><input type="checkbox" id="dbox1" >Terminar de estudiar CSS</li>
+                            <li class="postIt done-color2"><input type="checkbox" id="dbox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt done-color3"><input type="checkbox" id="dbox2" >Terminar de estudiar CSS</li>
+                            <li class="postIt done-color4"><input type="checkbox" id="dbox2" >Terminar de estudiar CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+                    
+        </main>
+    </body>
+
+</html>
+
+
+
