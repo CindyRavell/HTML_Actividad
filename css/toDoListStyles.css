@@ -4,8 +4,9 @@ html, body {
 
 body{
   display: block;
-  background: url(../img/fondo1.jpg);
-  background-size: auto;
+  /*background: url(../img/fondo1.jpg);*/
+  background-color: whitesmoke;
+  background-size: cover;
   z-index: -2;
 }
 
@@ -36,7 +37,7 @@ body{
   padding: 10px;
   font-size: 50px;
   font-style: italic;
-  color: rgb(22, 175, 202);
+  color: #1c71d4;
   text-align: center;
 }
 
@@ -46,12 +47,13 @@ body{
 }
 
 .navc .flexFather {
+  margin: 5px;
   display: flex;
   flex-grow: 1;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .navItem {
@@ -65,12 +67,17 @@ body{
   text-align: center;
   border-radius: 12px;
   border: none;
-  background-color: rgb(243, 236, 195);/* rgb(192, 223, 248)*/
+  background-color: #1c71d4;/* rgb(192, 223, 248)*/
+}
+
+.navItem a {
+  color: rgb(238, 238, 238);
 }
 
 .navItem a:hover {
   color: rgb(146, 228, 173);
 }
+
 /*
 .navItem a:link {
   color: rgb(146, 228, 173);
@@ -83,6 +90,8 @@ body{
 }
 */
 .asidec {
+  border: 2px solid black;
+  border-radius: 12px;
   grid-column: 1/2;
   grid-row: 3/4;
 }
@@ -94,10 +103,6 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgba(233, 141, 213, 0.4);
-  border-radius: 12px;
-  border: none;
-  z-index: -1;
 }
 .toolBarTitle{
   margin: 5px;
@@ -106,7 +111,7 @@ body{
   padding: 10px;
   font-size: 40px;
   font-style: italic;
-  color: rgb(22, 175, 202);
+  color: #1c71d4;
   text-align: center;
 }
 .toolBarbutton {
@@ -119,13 +124,15 @@ body{
   text-align: center;
   border-radius: 12px;
   border: none;
-  background-color: rgb(195, 243, 217);/* rgb(192, 223, 248)*/
+  background-color: whitesmoke;
+  border: 2px solid #1c71d4;
   z-index: 1;
   transition-duration: 0.5s;
 }
+
 .toolBarbutton:hover {
-  background-color: rgb(131, 218, 230);
-  border: 2px solid rgb(195, 243, 217);
+  background-color: #86bede;
+  border: 2px solid #1c71d4;
 }
 /*
 .toolBarbutton:active {
@@ -134,24 +141,52 @@ body{
 }*/
 /* Colors */
 
-.post-color1 {
-  background-color: rgb(116, 204, 231);
+.todo-color1 {
+  background-color: #5f9f38;
 }
 
-.post-color2 {
-  background-color: rgb(238, 155, 155);
+.todo-color2 {
+  background-color: #5bd7cf;
 }
 
-.post-color3 {
-  background-color: rgb(235, 130, 153);
+.todo-color3 {
+  background-color: #5baad7;
 }
 
-.post-color4 {
-  background-color: rgb(182, 238, 168);
+.todo-color4 {
+  background-color: #6c5bd7;
 }
 
-.post-color5 {
-  background-color: rgb(228, 169, 225);
+.doing-color1 {
+  background-color: #8bcf61;
+}
+
+.doing-color2 {
+  background-color: #95e0db;
+}
+
+.doing-color3 {
+  background-color: #86bede;
+}
+
+.doing-color4 {
+  background-color: #9184e2;
+}
+
+.done-color1 {
+  background-color: #c1f3a2;
+}
+
+.done-color2 {
+  background-color: #c5f1ee;
+}
+
+.done-color3 {
+  background-color: #bbdef2;
+}
+
+.done-color4 {
+  background-color: #bfb7f1;
 }
 
 .sectionc {
@@ -182,7 +217,7 @@ body{
   padding: 10px;
   font-size: 40px;
   font-style: italic;
-  color: rgb(22, 175, 202);
+  color: #1c71d4;
   text-align: center;
 }
 
